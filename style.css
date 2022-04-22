@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    /*justify-content: right;*/
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #f8d300, #f5da45);
+}
+
+#titulo {
+    position: absolute;
+    left: 9;
+    top: 10;
+    line-height: 30px;
+    direction: rtl;
+    width: 330px;
+    margin: 0px;
+
+}
+
+.full-container .image {
+    display: flex;
+    position: absolute;
+    font-size: 0;
+    height: 103%;
+    margin: 0px;
+
+}
+
+.container {
+    position: fixed;
+    margin: 10px 820px;
+    top: 0;
+    right: 20;
+    max-width: 23rem;
+    width: 100%;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+}
+
+.container .title {
+    font-size: 30px;
+    position: relative;
+    background: rgb(0, 0, 0);
+}
+
+.container .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #f8d300, #f5da45);
+}
+
+form .input-box {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1;
+    margin-top: 1rem;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+form .button {
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .button input {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: rgb(255, 254, 254);
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #f8d300, #c9b64b);
+}
+
+form .button input:hover {
+    background: linear-gradient(-135deg, #f8d300, #f5da45);
+}
